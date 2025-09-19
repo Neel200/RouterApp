@@ -27,7 +27,7 @@ const SignupForm=({setIsLoggedIn})=>{
         } 
         setIsLoggedIn(true);
         toast.success("Account Created");   
-        navigate("/dashboard");
+        navigate("/login");
     }
     return(
         <div>

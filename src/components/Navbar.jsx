@@ -39,7 +39,7 @@ const Navbar=(props)=>{
                     }
                     {isLoggedIn &&
                         <NavLink to="/">
-                            <button onClick={()=>{
+                            <button className="btn" onClick={()=>{
                                 setIsLoggedIn(false);
                                 toast.success("Logged Out");
                             }}>
@@ -49,7 +49,7 @@ const Navbar=(props)=>{
                     }
                     {isLoggedIn &&
                         <NavLink to="/dashboard">
-                            <button>
+                            <button className="btn">
                                 Dashboard
                             </button>
                         </NavLink>

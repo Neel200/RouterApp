@@ -1,7 +1,9 @@
 import React from "react";
 const Dashboard=()=>{
     return(
-        <div className="container">Welcome to Study Notion</div>
+        <div className="container">
+            <h2>Welcome to Study Notion</h2>
+        </div>
     )
 }
 export default Dashboard;
